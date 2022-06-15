@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from "react";
 import axios from "axios";
 import { Link} from "react-router-dom";
+import { Button } from "bootstrap";
 const Home = () =>{
     const[users,setUsers] = useState([]);
     useEffect(()=>{
@@ -13,6 +14,10 @@ const Home = () =>{
         setUsers(result.data.reverse());
     };
     
+    const deleteUser = async id  =>{
+        await axios.delete(`http://localhost:3003/users/${id}`);
+        loadUsers();
+    };
     return (
         <div className="container">
             <div className="py-4">
@@ -38,7 +43,7 @@ const Home = () =>{
                                     <td>
                                         <Link class="btn btn-primary mr-2" to={`/user/${user.id}`}>View</Link>
                                         <Link class="btn btn-outline-primary mr-2" to={`/user/edit/${user.id}`}>Edit</Link>
-                                        <Link class="btn btn-danger" to="">Delete</Link>
+                                        <button class="btn btn-danger" onClick={()=>deleteUser(user.id)}>Delete</button>
                                     </td>
                                 </tr>
                             ))}

@@ -208,53 +208,6 @@
       }
     },
     {
-      "id": 10,
-      "name": "Clementina DuBuque",
-      "username": "Moriah.Stanton",
-      "email": "Rey.Padberg@karina.biz",
-      "address": {
-        "street": "Kattie Turnpike",
-        "suite": "Suite 198",
-        "city": "Lebsackbury",
-        "zipcode": "31428-2261",
-        "geo": {
-          "lat": "-38.2386",
-          "lng": "57.2232"
-        }
-      },
-      "phone": "024-648-3804",
-      "website": "ambrose.net",
-      "company": {
-        "name": "Hoeger LLC",
-        "catchPhrase": "Centralized empowering task-force",
-        "bs": "target end-to-end models"
-      }
-    },
-    {
-      "name": "razu",
-      "username": "razubhattarai",
-      "email": "razubhattarai@gmail.com",
-      "phone": "12345645",
-      "website": "www.razu.com",
-      "id": 11
-    },
-    {
-      "name": "dibyasdfsdfsdfddddddddddddddddddddddddd",
-      "username": "dibyasdfsdfsdfddddddddddddddddd",
-      "email": "dibya@gmaeeeil.com",
-      "phone": "112345522222222222222222222222222",
-      "website": "www.dibua.com",
-      "id": 12
-    },
-    {
-      "name": "",
-      "username": "",
-      "email": "",
-      "phone": "",
-      "website": "",
-      "id": 13
-    },
-    {
       "name": "sdfsdf",
       "username": "sdfsdf",
       "email": "sdf@sdfsd.dfg",
@@ -263,11 +216,11 @@
       "id": 14
     },
     {
-      "name": "sdfsdf",
-      "username": "sdfsdf",
+      "name": "sdfsdfdfsd",
+      "username": "sdfsdf sdfsdf",
       "email": "sdfdf@sdfsdf.com",
-      "phone": "11221111",
-      "website": "www.dlsl.com",
+      "phone": "11221111sdf",
+      "website": "www.dlsl.comdfsdf",
       "id": 15
     }
   ]
